@@ -1,0 +1,209 @@
+/*
+ * MyBB: Water - Admin CP
+ *
+ * File: Login CSS File
+ *
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8.x
+ *
+ * Style Version: 1.0
+ * 
+ */
+
+body {
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background: #E5E5E5 url('images/container_bg.png') top left repeat-x;
+	color: #000000;
+	margin: 0;
+}
+
+a {
+	color: #156364;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+
+.invisible {
+	display: none;
+}
+
+#container {
+	width: 410px;
+	margin: 100px auto;
+}
+
+#logo h1 {
+	height: 82px;
+	background: transparent url('images/login_logo.png') bottom left no-repeat;
+	margin: 10px;
+	padding: 0;
+}
+
+#header h1 a {
+	float: left;
+	height: 82px;
+	width: 410px;
+}
+
+#content {
+    background: #F1F1F1;
+    border: 2px solid #156364;
+	padding: 0;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+p, form {
+	padding: 0 10px 10px 10px;
+}
+
+form {
+	padding-bottom: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+form p {
+	padding: 0 0 10px 0;
+}
+
+h2 {
+	background: #156364 url('images/water_thead.png') top left repeat-x;
+	border-bottom: 1px solid #156364;
+	color:#fff;
+	margin: 0;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+
+input.text_input {
+    background: #fff;
+	border: 1px solid #DEDEDE;
+	width: 255px;
+	padding: 4px;
+	font-size: 13px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: 0;
+}
+
+input.text_input:focus {
+border: 1px solid #156364;
+}
+
+#message {
+	margin: 10px 10px 0 10px;
+	padding: 10px;
+	font-weight: bold;
+	background: #efefef;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#message.error {
+	border: 1px solid #FC6;
+	background: #FFC;
+	color: #C00;
+}
+
+#message.success {
+	border: #080 1px solid;
+	background-color: #E8FCDC;
+	color: #080;
+}
+
+form .label {
+	margin-bottom: 3px;
+	width: 112px;
+	clear: left;
+	float: left;
+	padding: 15px 0 0 8px;
+}
+
+form label {
+	font-weight: bold;
+}
+
+
+.form_container .field {
+	float: left;
+	padding: 8px 0;
+	border-top: 0px solid #ddd;
+}
+
+p.submit {
+	clear: both;
+	background: #FFFFFF;
+	border-top: 1px solid #ddd;
+	padding: 8px 10px;
+	margin: 8px -10px 0;
+	text-align: right;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+
+p.submit input {
+	border: 1px solid #156364;
+	padding: 4px 7px;
+    background: #156364 url('images/water_thead.png') top left repeat-x;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	margin-right: 3px;
+	font-size: 1.1em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+p.submit input:hover {
+    background: #252525 url('images/water_tcat.png') bottom left repeat-x;
+	border: 1px solid #156364;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.forgot_password {
+	float: left;
+	padding-top: 8px;
+	font-size: 11px;
+}
+
+.forgot_password a {
+	color: #156364;
+}
+
+.forgot_password a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+.alert {
+	padding: 5px 10px;
+	border: #FC6 1px solid;
+	background-color: #ffc;
+	color: #900;
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 10px;
+	display: block;
+}
